@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+body {
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+}
+.divider {
+    font-family: 'Syne', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+}
+.pr-red {
+    border: 2px solid #ff0000;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+.pr-blue {
+    border: 2px solid blue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+.pr-green {
+    border: 2px solid greenyellow;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+.pr-yellow {
+    border: 2px solid yellow;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.home {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.software {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hardware {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
