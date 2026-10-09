@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+body {
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+}
+h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.topleft-btn {
+    font-family: 'Syne', sans-serif;
+    border-radius: 15px 0 0 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #ffffff
+}
+
+.topright-btn {
+    font-family: 'Syne', sans-serif;
+    border-radius: 0 15px 0 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ffffff
+}
+
+.bototmleft-btn {
+    font-family: 'Syne', sans-serif;
+    border-radius: 0 0 0 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: greenyellow;
+    color: black;
+}
+
+.bottomright-btn {
+    font-family: 'Syne', sans-serif;
+    border-radius: 0 0 15px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+}
+.pages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
